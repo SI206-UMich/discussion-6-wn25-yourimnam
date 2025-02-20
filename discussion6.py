@@ -39,7 +39,7 @@ def load_csv(f):
 
     d[year][month] = value
 
-    return d
+    return d 
 
 def get_annual_max(d):
     '''
@@ -54,6 +54,9 @@ def get_annual_max(d):
         You'll have to change vals to int to compare them. 
     '''
     pass
+    result = []
+    for year, month in d.items():
+        max_month = max 
 
 def get_month_avg(d):
     '''
