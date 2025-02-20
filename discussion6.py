@@ -1,7 +1,6 @@
 import unittest
 import os
 
-
 def load_csv(f):
     '''
     Params: 
@@ -18,6 +17,9 @@ def load_csv(f):
     base_path = os.path.abspath(os.path.dirname(__file__))
     full_path = os.path.join(base_path, f)
     # use this 'full_path' variable as the file that you open
+    nested_dict = {}
+
+    with open(full_path, )
 
 def get_annual_max(d):
     '''
